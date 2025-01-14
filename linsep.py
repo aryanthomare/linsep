@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import random
 import time
 
-
+#Function to generate linearly seperable points
 def generate_linearly_separable_points(num_points=100, margin=0.5):
     # Generate random x-coordinates
     x_coords = np.random.uniform(-1, 1, num_points)
